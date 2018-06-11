@@ -1,0 +1,104 @@
+/***************************************************************/
+/*      Header Style Sheet for all pages                       */
+/***************************************************************/
+/*      Site...: rodrigomorale.com                             */
+/*      Page...: Header-Style.css                              */	
+/*      Author.: Rodrigo Canella Garcia Morale                 */
+/*      Date...: 2017/12/10                                    */
+/*      Version: 1.0                                           */
+/***************************************************************/
+
+/***************************************************************/
+/*   Header Definitions                                        */
+/***************************************************************/
+
+/* --> Section on the top of header 
+       Default for all pages */
+header {
+    font-family: 'Open Sans Condensed', sans-serif;    
+}
+
+#HeaderFix {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(17, 17, 17);
+    opacity: 0.75;
+}
+
+.HeaderTop {
+    width: 75%;
+    min-width: 326,5px;
+    margin: 0 auto;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    border-bottom: 1px solid #999999;
+    display: inline-block; 
+}
+
+/* --> Link definitions */
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+header a:hover {
+    color: rgb(16, 181, 223);
+    font-size: 1.3em;
+}
+
+/* --> Positioning HeaderSite - id */
+header #HeaderSite {
+    float:  left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* --> Positioning HeaderMenu - id */
+header #HeaderMenu {
+    float:  right;
+    text-align: right;
+}
+
+header #CloseHeaderMenu {
+    float:  right;
+    text-align: right;
+}
+
+/* --> Table definitions for HeaderMenu */
+#HeaderMenu ul {
+    display: inline-block;
+}
+
+#HeaderMenu li {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline;
+}
+
+header p {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+#mobileHeaderMenu li {
+    list-style: none;
+    text-align: left;
+    font-size: 1.3em;
+    width: 100%;
+    margin-bottom: 1px solid #999999;
+}
+
+#mobileHeaderMenu li:hover {
+    color: rgb(16, 181, 223);
+    font-size: 1.3em;
+}
+
+#openMobileHeaderMenu:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,217 @@
+/***************************************************************/
+/*      Default Style Sheet for all pages                      */
+/***************************************************************/
+/*      Site...: rodrigomorale.com                             */
+/*      Page...: Default-Style.css                             */	
+/*      Author.: Rodrigo Canella Garcia Morale                 */
+/*      Date...: 2017/12/10                                    */
+/*      Version: 1.0                                           */
+/***************************************************************/
+
+/***************************************************************/
+/*   Body and Sections                                         */
+/***************************************************************/
+
+body {
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #999999;    
+    background-color: rgb(17, 17, 17);
+}
+
+/* --> Section with Grey background */
+.BackgroundGrey {
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+}
+
+/* --> Section with Black background */
+.BackgroundBlack {
+    width: 100%;
+    background-color: rgb(0 ,0, 0);
+}
+
+/* --> General definions for Sections */
+.SectionMain {
+    width: 75%;
+    min-width: 200px;
+    padding-left: 12.5%;
+    padding-top: 10px;
+    padding-right: 12.5%;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.77em;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.FirstSection {
+    padding-top: 50px;
+}
+
+/**************************************************************/
+/*   Sections content definitions                             */
+/**************************************************************/
+
+/* --> Main title */
+.H1Main {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: rgb(16, 181, 223);
+    text-align: center;
+}
+
+/* --> Subtitle */
+.H2Main {
+    padding-top: 10px;
+    margin-bottom: 2px;
+    font-size: 1.3em;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* --> Link Definitions */
+.SectionMain a {
+    color: #999999;
+}
+
+.SectionMain a:hover {
+    text-decoration: none;
+}
+
+.SectionMain .Button {
+    text-decoration: none;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #000000;
+    background-color: rgb(16, 181, 223);
+}
+
+.Button:hover {
+    color: #000000;
+    background-color: rgb(16, 150, 255);
+}
+
+/* --> Content and text defitions */
+.ContentMain {
+    width:  70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+p {
+    margin-top: 2px;
+}
+
+/**************************************************************/
+/*   Tab Midias contente - Table definitions                  */
+/**************************************************************/  
+
+#TabMidias ul {
+    display: inline-block;
+}
+
+#TabMidias li {
+    margin: 7px;
+    display: inline;
+}
+
+#TabMidias a {
+    text-decoration: none;
+}
+
+#TabMidias img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+#TabMidias {
+    width: 100%;
+    text-align: center;
+}
+
+/**************************************************************/
+/*   Contact Form definitions                                 */
+/**************************************************************/  
+
+.ContactMain {
+    float: left;
+    width: 40%;
+    min-width: 230px;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: row;
+}
+
+.SendEmail {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #999999;
+    background-color: rgb(17, 17, 17);
+}
+
+textarea {
+    height: 110px;
+    
+}
+
+fieldset {
+    border: 0;
+}
+
+/**************************************************************/
+/*   Button definitions                                       */
+/**************************************************************/  
+
+#ButtonEmail {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #000000;
+    background-color: rgb(16, 181, 223);;
+}
+
+
+/**************************************************************/
+/*      Table alignment definitions                           */
+/**************************************************************/
+
+table {
+    margin-top: 2px;
+}
+
+.TDRight {
+    text-align: right;
+    vertical-align: top;    
+}
+
+.TDLeft {
+    text-align: left;
+    vertical-align: top;
+}    
